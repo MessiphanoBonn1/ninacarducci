@@ -1,8 +1,8 @@
 <!doctype html>
-<html>
+<html lang="fr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+    <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -19,6 +19,7 @@
     ></script>
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js"></script>
+    <title>Nina Carducci</title>
   </head>
   <body>
     <div class="top-header">
@@ -40,7 +41,7 @@
         </ul>
       </div>
     </div>
-    <div id="header">
+    <header id="header">
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -110,7 +111,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </header>
     <div id="about">
       <div class="picture left">
         <img
@@ -276,11 +277,11 @@
             N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
           </p>
           <form action="" method="post">
-            <label>Nom</label>
+            <label for="nom">Nom</label>
             <input type="text" name="nom" id="nom" />
-            <label>Email</label>
+            <label for="email">Email</label>
             <input type="email" name="email" id="email" />
-            <label>Message</label>
+            <label for="message">Message</label>
             <textarea
               name="message"
               id="message"
